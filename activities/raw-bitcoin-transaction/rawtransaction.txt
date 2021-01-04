@@ -1,0 +1,16 @@
+// createrawtransaction '[{"txid":"TXID","vout": VOUT}]’’{“to_address”:amount1, “from_address”:amount2}’
+
+txid: 
+
+vout: 0
+
+to_address: 
+
+from_address: 
+
+amount1: .00005 BTC being sent to "to_address"
+
+amount2: 0.0009 BTC being sent back to the "from_address"
+
+sample returned hex
+02000000011c702bc8d57cdb9b33eef68e6c56c147cdcfd246be01e54eb5c832da7ba287e70000000000ffffffff02c0c62d000000000017a914f20fe211102535e3c37bb0e659099387ddc035b58730c11d000000000017a91454ad1e8953876c90d3fc15798c687835ab3d3aee8700000000
