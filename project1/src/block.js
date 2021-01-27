@@ -38,20 +38,13 @@ class Block {
     validate() {
         let self = this;
         return new Promise((resolve, reject) => {
-            // Save in auxiliary variable the current block hash
-            let currentHash = self.hash;
-            // Recalculate the hash of the Block
-            let recalcHash = SHA256(JSON.stringify(self)).toString();
-            // Comparing if the hashes changed
-            if (currentHash===recalcHash){
-                // Returning the Block is valid
-                resolve(true);
-            }
-            // Returning the Block is not valid
-            else{
-                reject(Error("It broke"));
-            }
-
+        
+        let currentHash = self.hash;
+        self.hash = null;
+        let newHash = SHA256(JSON.stringify(self)).toString();
+        self.hash = currentHash;
+        resolve(currentHash===newHash);
+        
         });
     }
 
@@ -65,6 +58,7 @@ class Block {
      *     or Reject with an error.
      */
     getBData() {
+
         let self = this
         // Getting the encoded data saved in the Block
         let encodedData = this.body;

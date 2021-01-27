@@ -1,3 +1,7 @@
+Credit to yaseenix, felipegontijo, and Udacity Knowladge Base 
+
+
+
 # Private Blockchain Application
 
 You are starting your journey as a Blockchain Developer, this project allows you to demonstrate
