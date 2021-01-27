@@ -191,11 +191,16 @@ class Blockchain {
     let self = this;
     let stars = [];
     return new Promise((resolve, reject) => {
+
+        try {
         self.chain.forEach(async(b) => {
             let data= await b.getBData();
             if (data.owner === address) stars.push(data);
         });
         resolve(stars);
+    } catch (error) {
+        errorLog.push(error);
+    }
     });
 }
 
@@ -221,7 +226,10 @@ class Blockchain {
                 }
                 let currentHash = block.hash;
             });
-            resolve(errorLog);
+                resolve("validation looks good")
+
+                resolve(errorLog);
+
         });
     }
 
