@@ -8,4 +8,5 @@ Web3.js v1.2.9\
 OpenZeppelin version: 2.1.2\
 ERC-721 Token Name: Star Notary Token\
 ERC-721 Token Symbol: SNT \
-“Token Address” on the Rinkeby Network: 0xaD985e489970E7C18688b751336B40611c054023
+“Token Address” on the Rinkeby Network: 0xaD985e489970E7C18688b751336B40611c054023 \
+With help from @Fjp
