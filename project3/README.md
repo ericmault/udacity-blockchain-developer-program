@@ -48,6 +48,81 @@ State
 
 ![state](UML\StateDiagram.jpg)
 
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+### Prerequisites
+
+Please make sure you've already installed ganache-cli, Truffle and enabled MetaMask extension in your browser.
+
+```
+npm install ganache-cli
+npm install truffle
+```
+
+### Installing
+
+A step by step series of examples that tell you have to get a development env running
+
+Clone this repository,
+
+Change directory to ```project3``` folder and install all requisite npm packages (as listed in ```package.json```):
+
+```
+cd project3
+npm install
+```
+
+Launch Ganache:
+
+```
+ganache-cli -m "<your phrase here>"
+```
+
+Your terminal should look something like this:
+
+![truffle test](images/ganache-cli1.png)
+
+In a separate terminal window, Compile smart contracts:
+
+```
+truffle compile
+```
+
+Your terminal should look something like this:
+
+![truffle test](images/truffle_compile2.png)
+
+This will create the smart contract artifacts in folder ```build\contracts```.
+
+Migrate smart contracts to the locally running blockchain, ganache-cli:
+
+```
+truffle migrate
+```
+
+Your terminal should look something like this:
+
+![truffle test](images/truffle_migrate3.png)
+
+Test smart contracts:
+
+```
+truffle test
+```
+
+All 10 tests should pass.
+
+![truffle test](images/truffle_test4.png)
+
+In a separate terminal window, launch the DApp:
+
+```
+npm run dev
+```
+
+
 ## Libraries
 
 Roles Library and truffle-hd-wallet-provider are used
