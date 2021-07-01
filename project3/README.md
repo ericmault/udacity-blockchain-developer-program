@@ -13,23 +13,23 @@ The DApp User Interface when running should look like...
 ![truffle test](images/ftc_transaction_history.png)
 
 
-supplyChain contract address: 0x62658a8E2aA04fCAD391C364cca42C9fcb07Fb6c
+supplyChain contract address: 0xa4CD0BCB92f62c841618947733CE48a5a28B3e2B
 
-supplyChain Transaction hash: 0xfda7912d094bf34764de4e56dd88846e3439dbdf24966532a588da47343c7032
+supplyChain Transaction hash: 0xcccd8d9f3afa849d415c507ad27eb790c1fcac02b56378ebc647abb1c90b0de3
 
-Deploying 'SupplyChain'
+  Replacing 'SupplyChain'
    -----------------------
-   > transaction hash:    0xfda7912d094bf34764de4e56dd88846e3439dbdf24966532a588da47343c7032
-   > Blocks: 1            Seconds: 12
-   > contract address:    0x62658a8E2aA04fCAD391C364cca42C9fcb07Fb6c
-   > block number:        8856123
-   > block timestamp:     1625078753
+   > transaction hash:    0xcccd8d9f3afa849d415c507ad27eb790c1fcac02b56378ebc647abb1c90b0de3
+   > Blocks: 0            Seconds: 8
+   > contract address:    0xa4CD0BCB92f62c841618947733CE48a5a28B3e2B
+   > block number:        8861523
+   > block timestamp:     1625159844
    > account:             0x3A4a05517f3FaC72b6A3BE284F9EF4c08F02774B
-   > balance:             37.318959625
-   > gas used:            1750956 (0x1ab7ac)
+   > balance:             37.275814500689011042
+   > gas used:            2596985 (0x27a079)
    > gas price:           10 gwei
    > value sent:          0 ETH
-   > total cost:          0.01750956 ETH
+   > total cost:          0.02596985 ETH
 
 ## UML
 
