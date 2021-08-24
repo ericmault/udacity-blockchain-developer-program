@@ -1,8 +1,9 @@
 *.zip
-
+.secret
 
 # Created by https://www.toptal.com/developers/gitignore/api/soliditytruffle
 # Edit at https://www.toptal.com/developers/gitignore?templates=soliditytruffle
+
 
 ### SolidityTruffle ###
 # depedencies
